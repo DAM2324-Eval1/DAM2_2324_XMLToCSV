@@ -13,6 +13,7 @@ public class Principal {
 		int opcion = -1;
 		Scanner teclado = new Scanner(System.in);
 		
+		imprimirMenu();
 		opcion = teclado.nextInt();
 		
 		while(opcion!=3) {
